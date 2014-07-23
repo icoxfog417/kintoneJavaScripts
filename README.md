@@ -1,7 +1,8 @@
 kintoneJavaScripts
 ==================
 
-kintoneのJavaScriptカスタマイズテンプレート集
+kintoneのJavaScriptカスタマイズテンプレート集です。  
+各サンプルにはアプリテンプレート(zip)ファイルが付属しているので、お使いのkintone環境に追加することですぐに試してみることができます。
 
 ## サンプル一覧
 
