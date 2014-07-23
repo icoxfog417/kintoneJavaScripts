@@ -3,6 +3,11 @@ kintoneJavaScripts
 
 kintoneのJavaScriptカスタマイズテンプレート集
 
+## サンプル一覧
+
+ * [一覧リストで、フィールドの値に応じてスタイルを変更する](https://github.com/icoxfog417/kintoneJavaScripts/tree/master/changeFieldColorInList)
+
+
 ## [kineont APIドキュメント](https://cybozudev.zendesk.com/hc/ja/categories/200147600)
 
 ### [レコード一覧表示イベントの際使える処理](https://cybozudev.zendesk.com/hc/ja/articles/201942004-%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7%E6%83%85%E5%A0%B1%E5%8F%96%E5%BE%97)
