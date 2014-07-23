@@ -12,7 +12,7 @@ kintoneのJavaScriptカスタマイズテンプレート集です。
 
 ## [kineont APIドキュメント](https://cybozudev.zendesk.com/hc/ja/categories/200147600)
 
-### [レコード一覧表示イベントの際使える処理](https://cybozudev.zendesk.com/hc/ja/articles/201942004-%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7%E6%83%85%E5%A0%B1%E5%8F%96%E5%BE%97)
+### [レコード一覧表示で使える処理](https://cybozudev.zendesk.com/hc/ja/articles/201942004-%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89%E4%B8%80%E8%A6%A7%E6%83%85%E5%A0%B1%E5%8F%96%E5%BE%97)
 
 * kintone.app.getQueryCondition：一覧表示のクエリ引数を取得する
 * kintone.app.getQuery：一覧表示のクエリ引数を取得する
@@ -20,14 +20,14 @@ kintoneのJavaScriptカスタマイズテンプレート集です。
 
 列単位でなく、行を取得したい場合は`event.records`で取得する。行を取得しての処理は[こちら](https://cybozudev.zendesk.com/hc/ja/articles/202640970-%E3%83%AD%E3%82%B0%E3%82%A4%E3%83%B3%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC%E3%81%8C%E6%8B%85%E5%BD%93%E3%81%97%E3%81%A6%E3%81%84%E3%82%8B%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AB%E8%83%8C%E6%99%AF%E8%89%B2%E3%82%92%E3%81%A4%E3%81%91%E3%82%8B)が参考になります。
 
-### [レコード詳細情報取得](https://cybozudev.zendesk.com/hc/ja/articles/201942014-%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89%E8%A9%B3%E7%B4%B0%E6%83%85%E5%A0%B1%E5%8F%96%E5%BE%97)
+### [レコード詳細画面で使える処理](https://cybozudev.zendesk.com/hc/ja/articles/201942014-%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89%E8%A9%B3%E7%B4%B0%E6%83%85%E5%A0%B1%E5%8F%96%E5%BE%97)
 
 * kintone.app.record.getId：レコードIDを取得する
 * kintone.app.record.getFieldElement：フィールドの要素を取得する
 * kintone.app.record.set：レコードへの値のセット
 * kintone.app.record.getSpaceElement：スペース要素の取得
 
-### [kintone REST API リクエスト](https://cybozudev.zendesk.com/hc/ja/articles/202166310-kintone-REST-API-%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88)
+### [kintone REST API リクエストについて](https://cybozudev.zendesk.com/hc/ja/articles/202166310-kintone-REST-API-%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88)
 他のアプリ、また自分のアプリのデータをJavaScriptから取得したい場合は、REST APIを利用します。
 ※ゲストユーザーは使えないので注意してください(2014/7現在)。
 
