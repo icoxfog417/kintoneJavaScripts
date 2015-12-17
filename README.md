@@ -8,6 +8,7 @@ kintoneのJavaScriptカスタマイズテンプレート集です。
 
  * [一覧リストで、フィールドの値に応じてスタイルを変更する](https://github.com/icoxfog417/kintoneJavaScripts/tree/master/changeFieldColorInList)
  * [フィールドの値をJavaScriptで自動設定する](https://github.com/icoxfog417/kintoneJavaScripts/tree/master/setFieldByScript)
+ * [テキストフィールドでMarkdown書式を使う](https://github.com/icoxfog417/kintoneJavaScripts/tree/master/kintoneMarkdown)
 
 
 ## [kineont APIドキュメント](https://cybozudev.zendesk.com/hc/ja/categories/200147600)
