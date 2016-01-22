@@ -83,6 +83,25 @@ kintone.api('/k/v1/record', 'GET', {app: appId, id: 5}, function(resp) {
 
     //レコード編集保存前(pc)
     kintone.events.on("app.record.edit.submit", function(event){
+        /*
+        //編集前の値の書き換え
+        var record = event.record;
+        record['文字列_0']['value'] = 'この文字列で上書き';
+        record['Table']['value'][0]['value']['文字列_1']['value'] = 'テーブルの1レコード目を上書き';
+     
+        //サブテーブルの末尾に行を追加する
+        var newRow = {
+            value: {
+                文字列_1: {
+                    type: 'SINGLE_LINE_TEXT',
+                    value: 'サブテーブルに追加する行'
+                }
+            }
+        };
+        record['Table']['value'].push(newRow);
+        
+        return event;
+        */
         alert("now save edit!");
     });
 
